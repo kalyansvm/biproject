@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN" "http://castor.org/mapping.dtd">
+
+<mapping>
+	<class name="com.jaspersoft.jasperserver.export.modules.repository.beans.RepositoryObjectPermissionBean">
+		<map-to xml="objectPermission"/>
+		<field name="permissionMask" type="int">
+			<bind-xml name="permissionMask" node="element"/>
+		</field>
+		<field name="recipient" type="string">
+			<bind-xml name="recipient" node="element"/>
+		</field>
+		<field name="recipientType" type="string">
+			<bind-xml name="recipientType" node="attribute" location="recipient"/>
+		</field>
+	</class>
+</mapping>

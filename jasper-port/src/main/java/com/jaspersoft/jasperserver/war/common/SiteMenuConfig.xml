@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+ * Copyright (C) 2006 JasperSoft http://www.jaspersoft.com
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed WITHOUT ANY WARRANTY; and without the 
+ * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, see http://www.gnu.org/licenses/gpl.txt 
+ * or write to:
+ * 
+ * Free Software Foundation, Inc.,
+ * 59 Temple Place - Suite 330,
+ * Boston, MA  USA  02111-1307
+  -->
+<Model
+ name="sitemenuconfig"
+ dtdName="sitemenuconfig.dtd"
+ className="SiteMenuConfig"
+ packageName="com.jaspersoft.jasperserver.war.common"
+ root="menu-item"
+ version="1.0">
+    <Doc>
+This is the XML model for JI SiteMenu configuration.
+<p/>
+$Id$
+    </Doc>
+
+    
+    <!-- menu-item ====================================================== -->
+    <Element type="menu-item">
+        <Attribute name="name" required="true">
+            <Doc>
+                Name of the menu-item.
+            </Doc>
+        </Attribute>
+        <Attribute name="url">
+            <Doc>
+                URL linked to by menu-item.
+            </Doc>
+        </Attribute>
+         <Doc>
+            <p> The menu-item is a recursive tree structure.</p>
+        </Doc>
+        <Object name="roles" type="roles">
+            <Doc>
+                The list of roles for which this menu-item is displayed.
+            </Doc>
+        </Object>
+        <Object name="sub-items" type="sub-items">
+            <Doc>
+                The list of menu-items within this item.
+            </Doc>
+        </Object>
+    </Element>
+
+    <!-- sub-items ====================================================== -->
+    <Element type="sub-items">
+        <Doc>
+	       Sub menu items.
+        </Doc>
+	<Array name="subitems" type="menu-item">
+            <Doc>
+	       Sub menu items.
+            </Doc>
+	</Array>
+    </Element>
+
+    <!-- roles ========================================================== -->
+    <Element type="roles">
+        <Doc>
+                The list of roles for which this menu-item is displayed.
+        </Doc>
+	<Array name="roles" type="role">
+            <Doc>
+                The list of roles for which this menu-item is displayed.
+            </Doc>
+	</Array>
+    </Element>
+
+    <!-- role =========================================================== -->
+    <StringElement type="role"/>
+
+</Model>
