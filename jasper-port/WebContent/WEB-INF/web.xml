@@ -14,7 +14,7 @@
        	 -->
         
         <param-name>webAppRootKey</param-name> 
-        <param-value>jasperserver.root</param-value>
+        <param-value>biapp.root</param-value>
     </context-param>
 
     <listener>
