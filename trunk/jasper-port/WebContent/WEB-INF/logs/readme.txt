@@ -1,1 +1,1 @@
-This folder contains JasperServer log files.
+This folder contains bi app log files.
