@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN" "http://castor.org/mapping.dtd">
+
+<mapping>
+	<class name="com.jaspersoft.jasperserver.util.ExportImportBean" auto-complete="true">
+		<field name="version" type="string">
+			<bind-xml node="attribute"/>
+		</field>
+	</class>
+</mapping>

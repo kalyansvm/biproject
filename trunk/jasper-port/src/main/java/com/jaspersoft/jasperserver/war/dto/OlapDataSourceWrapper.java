@@ -1,0 +1,105 @@
+/*
+ * Copyright (C) 2005 - 2007 JasperSoft Corporation.  All rights reserved.
+ * http://www.jaspersoft.com.
+ *
+ * Unless you have purchased a commercial license agreement from JasperSoft,
+ * the following license terms apply:
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as published by
+ * the Free Software Foundation.
+ *
+ * This program is distributed WITHOUT ANY WARRANTY; and without the
+ * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, see http://www.gnu.org/licenses/gpl.txt
+ * or write to:
+ *
+ * Free Software Foundation, Inc.,
+ * 59 Temple Place - Suite 330,
+ * Boston, MA  USA  02111-1307
+ */
+package com.jaspersoft.jasperserver.war.dto;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.jaspersoft.jasperserver.api.metadata.jasperreports.domain.ReportDataSource;
+import com.jaspersoft.jasperserver.war.common.JasperServerConstImpl;
+
+/**
+ * 
+ * OlapDataSourceWrapper provides the wrapper for the 
+ * OlapDataSourceAction object
+ *
+ * @author jshih
+ */
+public class OlapDataSourceWrapper extends BaseDTO implements Serializable {
+	private ReportDataSource olapDataSource;
+	private List allDatasources;
+	private List allTypes;
+	private boolean lookup;
+	private String type;
+	private String source;
+	private String selectedUri;
+	private byte parentMode;
+	
+	public boolean isLookup() {
+		return lookup;
+	}
+	public void setLookup(boolean lookup) {
+		this.lookup = lookup;
+	}
+	public String getSource() {
+		return source;
+	}
+	public void setSource(String source) {
+		this.source = source;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public List getAllDatasources() {
+		return allDatasources;
+	}
+	public void setAllDatasources(List allDatasources) {
+		this.allDatasources = allDatasources;
+	}
+	public List getAllTypes() {
+		if(allTypes==null){
+			allTypes=new ArrayList();
+			allTypes.add(JasperServerConstImpl.getJDBCDatasourceType());
+			allTypes.add(JasperServerConstImpl.getJNDIDatasourceType());
+		}
+		return allTypes;
+	}
+	public void setAllTypes(List allTypes) {
+		this.allTypes = allTypes;
+	}
+	public ReportDataSource getOlapDataSource() {
+		return olapDataSource;
+	}
+	public void setOlapDataSource(ReportDataSource olapDataSource) {
+		this.olapDataSource = olapDataSource;
+	}
+	public String getSelectedUri() {
+		return selectedUri;
+	}
+	public void setSelectedUri(String selectedUri) {
+		this.selectedUri = selectedUri;
+	}
+
+	public byte getParentMode() {
+		return parentMode;
+	}
+
+	public void setParentMode(byte parentMode) {
+		this.parentMode = parentMode;
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class table="JIReportJobRepoDest" name="com.jaspersoft.jasperserver.api.engine.scheduling.hibernate.PersistentReportJobRepositoryDestination">
+		<id name="id" type="long" >
+			<generator class="native"/>
+		</id>
+		<version column="version" unsaved-value="negative" name="version"/>
+		<property name="folderURI" column="folder_uri" type="string" length="200" not-null="true"/>
+		<property name="sequentialFilenames" column="sequential_filenames" type="boolean" not-null="true"/>
+		<property name="overwriteFiles" column="overwrite_files" type="boolean" not-null="true"/>
+		<property name="outputDescription" column="output_description" type="string" length="250"/>
+		<property name="timestampPattern" column="timestamp_pattern" type="string" length="250"/>
+	</class>
+</hibernate-mapping>
