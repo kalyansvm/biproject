@@ -110,29 +110,7 @@
                         </tr>
 
                         <tr>
-                          <td></td>
-                          <td colspan="2" class="b_line"><spring:message code='LOGIN_PATH'/> -</td>
-                          <td></td>
-                        </tr>
-
-                        <tr>
-                          <td></td>
-                          <td colspan="2" class="bb_line"><ul><li><spring:message code='LOGIN_JASPERFORGE.ORG_PRE'/> <a href="http://www.jasperforge.org" target="blank">Jasperforge.org</a></li>  <li><spring:message code='LOGIN_VISIT_OUR'/> <a href="http://www.jaspersoft.com/services"  target="blank"><spring:message code='LOGIN_SERVICE_AND_SUPPORT_PORTAL'/></a> <spring:message code='LOGIN_LOGIN_REQUIRED'/></li> <li><spring:message code='LOGIN_BROWSE_OUR_ONLINE'/> <a href="http://www.jaspersoft.com/resources" target="blank"><spring:message code='LOGIN_RESOURCE_CENTER'/></span></li></ul></td>
-                          <td></td>
-                        </tr>
-
-                            <tr>
                           <td colspan="4" class="bb_line">&nbsp;</td>
-                        </tr>
-
-                        <tr>
-                          <td colspan="4" class="bb_line"  style="padding-left:60px;"><B><spring:message code='LOGIN_TRAINING_GUIDE'/></B> <spring:message code='LOGIN_ALSO_AVAILABLE'/></td>
-                        </tr>
-
-                        <tr>
-
-                          <td colspan="4" class="bb_line" nowrap style="padding-left:60px;"><ul><li><a href="http://www.jaspersoft.com/training" target="blank"><spring:message code='LOGIN_ONLINE_TRAINING'/></a></li> <li><a href="http://www.jaspersoft.com/BuyJrIrDocumentation" target="blank"><spring:message code='LOGIN_JR_AND_IREPORT_PACK'/></a> </li> <li><a href="http://www.jaspersoft.com/BuyJsJaDocumentation" target="blank"><spring:message code='LOGIN_JS_JA_DOC_PACK'/></a></li></ul></td>
-                                                                                      <td> </td>
                         </tr>
 
                     </tbody>
@@ -378,16 +356,6 @@
 </table>
 </td>
 </tr>
-
-
- <tr>
-  <td>
-  </td>
-  <td align="left" height="1%" style="line-height:175%">
-    <span class="font_bold"><spring:message code='LOGIN_WANT_MORE'/>&nbsp;&nbsp;</span><a href="http://www.jaspersoft.com/whypro" style="color:#993200" target="blank"> <spring:message code='LOGIN_JASPERSERVER_PROFESSIONAL_PRE'/></a> <br> <spring:message code='LOGIN_JASPERSERVER_PROFESSIONAL'/>
-    <br><spring:message code='LOGIN_CONTACT'/> <a href="http://www.jaspersoft.com/contact"  target="blank"><spring:message code='LOGIN_SALES_TEAM'/></a> <spring:message code='LOGIN_OR'/> <a href="http://www.jaspersoft.com/store" target="blank"><spring:message code='LOGIN_JS_STORE'/></a>
-  </td>
- </tr>
 
 
 </table>
