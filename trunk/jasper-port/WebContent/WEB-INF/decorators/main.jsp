@@ -97,7 +97,7 @@
               <td colspan="5" bgcolor="#000033"><img src="${pageContext.request.contextPath}/images/pixel.gif" height="1"></td>
             </tr>
             <tr>
-              <td style="border-left: 1px solid rgb(0, 0, 51);" valign="middle" align="left" width="150"><a href="http://www.jaspersoft.com/"><img src="${pageContext.request.contextPath}/images/jaspersoft-logo.png" style="border: 1px solid rgb(153, 153, 153);" border="0" height="46" hspace="4" width="141"></a></td>
+              <td style="border-left: 1px solid rgb(0, 0, 51);" valign="middle" align="left" width="150"><img src="${pageContext.request.contextPath}/images/server-logo.png" style="border: 1px solid rgb(153, 153, 153);" border="0" height="46" hspace="4" width="141"></td>
               <td valign="middle" align="left" height="60">&nbsp;&nbsp;<span class="ftitle"><spring:message code="jsp.main.title"/></span></td>
               <td colspan="2">&nbsp;
                   <authz:authorize ifNotGranted="ROLE_ANONYMOUS">
