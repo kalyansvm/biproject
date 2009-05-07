@@ -67,11 +67,6 @@
                         </tr>
                         <tr>
                           <td width="1" bgcolor="#f1f3f4"></td>
-                          <td bgcolor="#f1f3f4" colspan="2" align="left" nowrap><spring:message code='LOGIN_ONLINE_DEMO_PRE'/>&nbsp;<a href="http://www.jaspersoft.com/demo" target="blank"><spring:message code='LOGIN_ONLINE_DEMO'/></a></td>
-                          <td width="1" bgcolor="#f1f3f4"></td>
-                        </tr>
-                        <tr>
-                          <td width="1" bgcolor="#f1f3f4"></td>
                           <td bgcolor="#f1f3f4" colspan="2" align="left" nowrap>
                                &nbsp;
                           </td>
@@ -105,12 +100,6 @@
                         <tr height="40">
                           <td></td>
                           <td colspan="2">&nbsp;</td>
-                          <td></td>
-                        </tr>
-
-                        <tr>
-                          <td></td>
-                          <td style="font-size:11px"  colspan="2" nowrap><span class="font_bold"><spring:message code='LOGIN_LOOKING_FOR_DOC'/></span>&nbsp;&nbsp;&nbsp;<spring:message code='LOGIN_GETTING_STARTED'/></td>
                           <td></td>
                         </tr>
 
