@@ -97,7 +97,7 @@
               <td colspan="5" bgcolor="#000033"><img src="${pageContext.request.contextPath}/images/pixel.gif" height="1"></td>
             </tr>
             <tr>
-              <td style="border-left: 1px solid rgb(0, 0, 51);" valign="middle" align="left" width="150"><img src="${pageContext.request.contextPath}/images/server-logo.png" style="border: 1px solid rgb(153, 153, 153);" border="0" height="46" hspace="4" width="141"></td>
+              <td style="border-left: 1px solid rgb(0, 0, 51);" valign="middle" align="left" width="150"><img src="${pageContext.request.contextPath}/images/server-logo.png" style="border: 1px solid rgb(153, 153, 153);" border="0" height="52" hspace="4" width="162"></td>
               <td valign="middle" align="left" height="60">&nbsp;&nbsp;<span class="ftitle"><spring:message code="jsp.main.title"/></span></td>
               <td colspan="2">&nbsp;
                   <authz:authorize ifNotGranted="ROLE_ANONYMOUS">
@@ -109,7 +109,6 @@
 		    <authz:authentication operation="fullName"/><spring:message code="jsp.main.exclamation.mark"/>
                     </authz:authorize>
               </td>
-              <td width="135"><a href="http://sourceforge.net/"><img src="${pageContext.request.contextPath}/images/sflogo.gif" border="0" height="31" hspace="10" width="105"></a></td>
             </tr>
             <tr valign="top">
               <td colspan="5" bgcolor="#000033"><img src="${pageContext.request.contextPath}/images/pixel.gif" height="1"></td>
