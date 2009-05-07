@@ -174,13 +174,15 @@
 	<bean id="userLocalesList" class="com.jaspersoft.jasperserver.war.common.LocalesListImpl">
 		<property name="locales">
 			<list>
+			<!-- 
 				<value type="java.util.Locale">en</value>
 				<value type="java.util.Locale">fr</value>
 				<value type="java.util.Locale">it</value>
 				<value type="java.util.Locale">de</value>
 				<value type="java.util.Locale">ro</value>
 				<value type="java.util.Locale">ja</value>
-				<value type="java.util.Locale">zh_TW</value>
+			 -->	
+				<value type="java.util.Locale">zh_CN</value>
 			</list>
 		</property>
 	</bean>
