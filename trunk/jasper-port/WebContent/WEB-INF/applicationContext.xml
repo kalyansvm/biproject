@@ -613,8 +613,8 @@ http://www.springframework.org/schema/util http://www.springframework.org/schema
         <property name="cacheSeconds" value="15"/>
         <property name="basenames">
             <list>
-                <value>WEB-INF/bundles/jasperserver_messages</value>
-            <value>WEB-INF/bundles/jasperserver_config</value>
+                <value>WEB-INF/bundles/biserver_messages</value>
+            	<value>WEB-INF/bundles/biserver_config</value>
                 <value>WEB-INF/bundles/jpivot_messages</value>
                 <value>WEB-INF/internal/jpivot_internal_messages</value>
                 <value>WEB-INF/internal/jasperserver</value>
