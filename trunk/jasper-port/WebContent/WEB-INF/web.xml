@@ -10,7 +10,7 @@
         <!-- 
         spring configuration, used as a key, the value used in log4j configuration
        	file. for "${key}" substitutions for the log file location.
-       	log4j.appender.fileout.File=${jasperserver.root}/WEB-INF/logs/jasperserver.log
+       	log4j.appender.fileout.File=${biapp.root}/WEB-INF/logs/biapp.log
        	 -->
         
         <param-name>webAppRootKey</param-name> 
