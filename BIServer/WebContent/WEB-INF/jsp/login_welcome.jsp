@@ -78,7 +78,7 @@
                                 <spring:message code='LOGIN_SIGN_IN_AS'/> -
                           </td>
                           <td bgcolor="#f1f3f4" align="left">
-                           <span class="user_login">jasperadmin</span>&nbsp;<spring:message code='LOGIN_ADMIN_USER'/>
+                           <span class="user_login">biadmin</span>&nbsp;<spring:message code='LOGIN_ADMIN_USER'/>
                           </td>
                           <td width="1" bgcolor="#f1f3f4"></td>
                         </tr>
@@ -87,7 +87,7 @@
                           <td bgcolor="#f1f3f4" align="left" nowrap width="1%">
                           </td>
                           <td bgcolor="#f1f3f4" height="25" align="left">
-                          <span class="user_login"> joeuser/joeuser</span>&nbsp;<spring:message code='LOGIN_JOEUSER'/>
+                          <span class="user_login"> biuser/biuser</span>&nbsp;<spring:message code='LOGIN_JOEUSER'/>
                           </td>
                           <td width="1" bgcolor="#f1f3f4"></td>
                         </tr>
