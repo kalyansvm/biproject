@@ -15,21 +15,21 @@
         -->
         
 
-    <Resource name="jdbc/jasperserver" auth="Container" type="javax.sql.DataSource"
+    <Resource name="jdbc/biserver" auth="Container" type="javax.sql.DataSource"
         maxActive="100" maxIdle="30" maxWait="10000"
-        username="jasperdb" password="password" 
+        username="biserverdb" password="password" 
         driverClassName="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/jasperserver?useUnicode=true&amp;characterEncoding=UTF-8"  />
+        url="jdbc:mysql://localhost:3306/biserver?useUnicode=true&amp;characterEncoding=UTF-8"  />
 
     <Resource name="jdbc/sugarcrm" auth="Container" type="javax.sql.DataSource"
         maxActive="100" maxIdle="30" maxWait="10000"
-        username="jasperdb" password="password" 
+        username="biserverdb" password="password" 
         driverClassName="com.mysql.jdbc.Driver"
         url="jdbc:mysql://localhost:3306/sugarcrm"/>
 
     <Resource name="jdbc/foodmart" auth="Container" type="javax.sql.DataSource"
         maxActive="100" maxIdle="30" maxWait="10000"
-        username="jasperdb" password="password" 
+        username="biserverdb" password="password" 
         driverClassName="com.mysql.jdbc.Driver"
         url="jdbc:mysql://localhost:3306/foodmart"/>
 
